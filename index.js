@@ -17,7 +17,7 @@ express()
       service: 'gmail',
       auth: {
           user: 'no-reply@praesideo.earth', // TODO: your gmail account
-          pass: '6bN9Y>Z7Pr@3s!Deo' // TODO: your gmail password
+          pass: 'praesideo@#$' // TODO: your gmail password
           // user: 'cebikinsweb@gmail.com', // TODO: your gmail account
           // pass: 'vtrrpfhcjitxxxpx' // TODO: your gmail password
       }

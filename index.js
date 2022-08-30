@@ -16,18 +16,22 @@ express()
     let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-          user: 'no-reply@praesideo.earth', // TODO: your gmail account
-          pass: 'praesideo@#$' // TODO: your gmail password
+          // user: 'no-reply@praesideo.earth', // TODO: your gmail account
+          // pass: 'praesideo@#$' // TODO: your gmail password
           // user: 'cebikinsweb@gmail.com', // TODO: your gmail account
           // pass: 'vtrrpfhcjitxxxpx' // TODO: your gmail password
+          user: 'sbgoldenstar@gmail.com', // TODO: your gmail account
+          pass: 'whjfarrcqnusnzdy' // TODO: your gmail password          
       }
     });
 
     // Step 2
     let mailOptions = {
-      from: 'no-reply@praesideo.earth', // TODO: email sender
+      // from: 'no-reply@praesideo.earth', // TODO: email sender
       // from: 'cebikinsweb@gmail.com', // TODO: email sender
-      to: 'sbgoldenstar@gmail.com', // TODO: email receiver
+      // to: 'sbgoldenstar@gmail.com', // TODO: email receiver
+      from: 'sbgoldenstar@gmail.com', // TODO: email sender
+      to: 'virtuoz.sb@gmail.com', // TODO: email receiver
       subject: 'Nodemailer - Test',
       text: 'Wooohooo it works!!'
     };
